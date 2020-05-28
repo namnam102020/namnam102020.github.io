@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* CSS Document */
 *{
 	margin: 0;
@@ -99,4 +100,107 @@
 	margin-top: 15px;
 	font-size: 12px;
 	font-family: source-sans-semibold;
+=======
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family: source-sans-light;
+	src: url("SourceSansPro-Light.ttf");
+}
+@font-face{
+	font-family: source-sans-semibold;
+	src: url("SourceSansPro-SemiBold.ttf");
+}
+#wrapper{
+	width: 800px;
+	height: 1100px; 
+	background: black;
+	margin: 0 auto;
+}
+#header{
+	background-image: url("sunnycover2.jpg");
+	width: 800px;
+	height: 550px;
+	text-align: center;
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+#header .logo{
+	width: 800px;
+	height: 100px;
+/*	background: white;*/
+}
+#header .top-header .space{
+	width: 800px;
+	height: 25px;
+}
+#header .top-header .title{
+	width: 800px;
+	height: 30px;
+	text-align: center;
+	font-family: source-sans-semibold;
+}
+#header .top-header .logo{
+	width: 800px;
+	height: 300px;
+}
+.logo img{
+	width: 200px;
+	text-align: center;
+}
+#header .menu-bar{
+	list-style: none;
+	font-family: source-sans-semibold;
+	font-size: 18px;
+}
+#header .bot-header a{
+	border: 1px solid white;
+	padding: 14px 16px;
+	color: white;
+	text-decoration: none;
+	transition: 0.2;
+}
+#header .bot-header a:hover{
+	background: white;
+	color: black;
+}
+/*#HEADER*/
+#content{
+	width: 800px;
+	height: 470px;
+	background: white;
+}
+#content .heading-1{
+	text-align: center;
+	padding-top: 50px;
+	font-family: source-sans-semibold;
+	font-size: 35px
+}
+#content .heading-2{
+	text-align: center;
+	padding-top: 10px;
+	font-family: source-sans-light;
+	font-size: 20px;
+}
+#content p{
+	text-align: left;
+	margin-left: 130px;
+	margin-top: 5px;
+	font-family: source-sans-light;
+}
+#footer{
+	width: 800px;
+	height: 80px;
+	background: black;
+}
+#footer p{
+	color: white;
+	text-align: center;
+	margin-top: 15px;
+	font-size: 12px;
+	font-family: source-sans-semibold;
+>>>>>>> 4843cda9e2e3e3376d77ef356e32c5ab394dd458
 }
